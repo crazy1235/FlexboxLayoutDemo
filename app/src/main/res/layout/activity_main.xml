@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksen.flexboxlayout.demo.MainActivity">
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexWrap="wrap">
+
+        <TextView
+            style="@style/tag_style"
+            android:text="阿里巴巴" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="百度" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="腾讯" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="搜狐大厦" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="阿弥陀佛" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="观世音菩萨" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="Amazon" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="facebook" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="旧金山" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="San Francisco" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="Golden Gate Bridge" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="成龙" />
+
+        <TextView
+            style="@style/tag_style"
+            android:text="肖申克的救赎" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>
