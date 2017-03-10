@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.jacksen.flexboxlayout.demo.MainActivity">
 
 
     <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexbox_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:flexWrap="wrap">
@@ -32,42 +32,37 @@
 
         <TextView
             style="@style/tag_style"
-            android:text="阿弥陀佛" />
-
-        <TextView
-            style="@style/tag_style"
-            android:text="观世音菩萨" />
-
-        <TextView
-            style="@style/tag_style"
             android:text="Amazon" />
 
         <TextView
             style="@style/tag_style"
             android:text="facebook" />
 
-        <TextView
-            style="@style/tag_style"
-            android:text="旧金山" />
-
-        <TextView
-            style="@style/tag_style"
-            android:text="San Francisco" />
-
-        <TextView
-            style="@style/tag_style"
-            android:text="Golden Gate Bridge" />
-
-        <TextView
-            style="@style/tag_style"
-            android:text="成龙" />
-
-        <TextView
-            style="@style/tag_style"
-            android:text="肖申克的救赎" />
-
-
     </com.google.android.flexbox.FlexboxLayout>
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/remove_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:src="@drawable/ic_remove_white_24dp" />
 
-</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/second_fab_margin"
+        android:layout_marginRight="@dimen/second_fab_margin"
+        android:src="@drawable/ic_add_white_24dp" />
+
+
+</RelativeLayout>

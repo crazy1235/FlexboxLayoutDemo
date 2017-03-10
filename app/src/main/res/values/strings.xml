@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">FlexboxLayoutDemo</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="tags">
+
+        <item>百度</item>
+        <item>阿里巴巴</item>
+        <item>Facebook</item>
+        <item>旧金山</item>
+        <item>金门大桥</item>
+        <item>肖申克</item>
+        <item>芝麻开门</item>
+        <item>L.A.</item>
+        <item>Amazon</item>
+        <item>Uber</item>
+        <item>滴滴打车</item>
+        <item>Golden Gate Bridge</item>
+        <item>共享经济</item>
+        <item>卡梅隆</item>
+        <item>The Flash</item>
+        <item>萨维塔</item>
+        <item>秦时明月</item>
+        <item>举头望明月</item>
+        <item>Jacksen</item>
+
+    </string-array>
 </resources>
