@@ -3,7 +3,7 @@
 
 
 
- ![img1](/art/img1.jpg)
+ ![img1](/art/img1.gif)
 
 
 
